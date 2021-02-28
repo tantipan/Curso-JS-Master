@@ -65,14 +65,13 @@ const funcionTrabajador1 = function(
         cargo: cargo,
         empresa: {datos:{nombre: empresa}},
         gustos: gustos,
-        hijos: hijos = { null: 'No tiene hijos'},
+        hijos: hijos = null: "No tiene hijos",
 
     })
     {
     return "El trabajador " + nombre + " trabaja en " + empresa + " con cargo " + cargo + " y le gusta " + gustos + " y " + hijos;
 
 }
-//En este ejercicio tuve problemas para mostrar el texto "No tiene hijos"
 
 
 const funcionTrabajador2 = function(
