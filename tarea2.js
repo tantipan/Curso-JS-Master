@@ -65,7 +65,7 @@ const funcionTrabajador1 = function(
         cargo: cargo,
         empresa: {datos:{nombre: empresa}},
         gustos: gustos,
-        hijos: hijos = null: "No tiene hijos",
+        hijos: hijos = 'No tiene hijos',
 
     })
     {
